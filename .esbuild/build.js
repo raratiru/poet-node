@@ -32,6 +32,7 @@ esbuild
           });
           return css;
         },
+        loadPaths: [ 'node_modules/vertical-rhythm-reset/dist', ],
       }),
     ],
   })
