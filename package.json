@@ -1,27 +1,25 @@
 {
   "devDependencies": {
-      "@fullhuman/postcss-purgecss": "^5.0.0",
-      "autoprefixer": "^10.4.12",
-      "esbuild": "^0.19.9",
-      "esbuild-plugin-purgecss-2": "^1.0.1",
-      "esbuild-sass-plugin": "^2.16.0",
-      "eslint": "^8.25.0",
-      "eslint-config-standard": "^17.0.0",
-      "eslint-plugin-import": "^2.26.0",
-      "eslint-plugin-n": "^16.4.0",
-      "eslint-plugin-promise": "^6.0.1",
-      "glob-all": "^3.3.0",
-      "htmx.org": "^1.8.4",
-      "jest": "^29.1.2",
-      "postcss": "^8.4.18",
-      "the-new-css-reset": "^1.7.3",
-      "vertical-rhythm-reset": "^2.0.0"
-    },
+    "@fullhuman/postcss-purgecss": "^6.0.0",
+    "autoprefixer": "^10.4.19",
+    "esbuild": "^0.21.3",
+    "esbuild-plugin-purgecss-2": "^1.0.1",
+    "esbuild-sass-plugin": "^3.3.0",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.6.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "glob-all": "^3.3.1",
+    "htmx.org": "^1.9.12",
+    "jest": "^29.7.0",
+    "postcss": "^8.4.38",
+    "the-new-css-reset": "^1.11.2",
+    "vertical-rhythm-reset": "^2.0.1"
+  },
   "type": "module",
   "scripts": {
     "build": ".esbuild/build.js",
     "watch": ".esbuild/watch.js"
-  },
-  "dependencies": {
   }
 }
